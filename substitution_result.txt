@@ -1,0 +1,15 @@
+Recurrence: T(n) = 4T(n/2) + n^2 
+Theoretical Time Complexity: Theta(n^2 log n) 
+ 
+n T(n)  T(n)/(n^2 log n) -------------------------------------------------- 
+1 1  0.0000 
+2 8  2.0000 
+4 48  1.5000 
+8 256  1.3333 
+16 1280  1.2500 
+32 6144  1.2000 
+64 28672  1.1667 
+ 
+Observation: 
+The ratio T(n)/(n^2 log n) approaches a constant. 
+Hence, T(n) = Theta(n^2 log n).
